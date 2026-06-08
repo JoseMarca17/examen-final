@@ -1,0 +1,42 @@
+exercise-list-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #121212;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.exercise-list__header {
+    margin-bottom: 16px;
+}
+
+.exercise-list__label {
+    color: #666666;
+    font-size: 12px;
+    text-transform: lowercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.exercise-list__title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exercise-list__main-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.exercise-list__count {
+    color: #8e8e93;
+    font-size: 16px;
+}
+
+.exercise-list__items {
+    display: flex;
+    flex-direction: column;
+}
