@@ -1,5 +1,6 @@
 import { ExerciseList } from "@/src/components/List";
 
+/*page*/
 const mockExercises = [
   { id: '1', title: 'Puxada frontal', series: 3, repetitions: 12, image: '/images/1.png' },
   { id: '2', title: 'Remada curvada', series: 3, repetitions: 12, image: '/images/2.png' },
